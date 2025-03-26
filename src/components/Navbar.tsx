@@ -27,8 +27,8 @@ const Navbar: React.FC = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center space-x-1">
-          <div className="h-9 w-9 rounded-lg bg-gradient-to-br from-solana-purple to-solana-green flex items-center justify-center text-white font-bold text-lg animate-pulse-slow">S</div>
-          <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-solana-purple to-solana-green ml-1">SolSniper</span>
+          <div className="h-9 w-9 rounded-lg bg-gradient-to-br from-solana-purple to-solana-green flex items-center justify-center text-white font-bold text-lg animate-pulse-slow">T</div>
+          <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-solana-purple to-solana-green ml-1">Traderr</span>
         </div>
 
         <nav className="hidden md:flex items-center space-x-8">

@@ -1,4 +1,3 @@
-
 import React, { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
@@ -110,10 +109,10 @@ const Index = () => {
                 <Play className="mr-2 h-4 w-4" /> Simple Process
               </div>
               <h2 className="text-3xl md:text-5xl font-bold mb-6 fade-in-section">
-                How <span className="text-gradient-green">SolSniper</span> Works
+                How <span className="text-gradient-green">Traderr</span> Works
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto fade-in-section">
-                Getting started with SolSniper is easy. Follow these simple steps to start sniping the best memecoin opportunities on Solana.
+                Getting started with Traderr is easy. Follow these simple steps to start sniping the best memecoin opportunities on Solana.
               </p>
             </div>
             
@@ -122,7 +121,7 @@ const Index = () => {
                 <div className="absolute -top-5 -left-5 h-12 w-12 rounded-full bg-solana-purple flex items-center justify-center text-white font-bold text-xl">1</div>
                 <h3 className="text-xl font-bold mb-4 pt-2">Connect Your Wallet</h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  Securely connect your Solana wallet to provide SolSniper with the permissions needed to execute trades on your behalf.
+                  Securely connect your Solana wallet to provide Traderr with the permissions needed to execute trades on your behalf.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
@@ -158,7 +157,7 @@ const Index = () => {
                 <div className="absolute -top-5 -left-5 h-12 w-12 rounded-full bg-solana-purple flex items-center justify-center text-white font-bold text-xl">3</div>
                 <h3 className="text-xl font-bold mb-4 pt-2">Launch & Monitor</h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  Activate SolSniper and watch as it monitors the Solana blockchain for opportunities and executes trades according to your strategy.
+                  Activate Traderr and watch as it monitors the Solana blockchain for opportunities and executes trades according to your strategy.
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
@@ -194,7 +193,7 @@ const Index = () => {
                 <Download className="mr-2 h-4 w-4" /> Simple Pricing
               </div>
               <h2 className="text-3xl md:text-5xl font-bold mb-6 fade-in-section">
-                Choose Your <span className="text-gradient-purple">SolSniper</span> Plan
+                Choose Your <span className="text-gradient-purple">Traderr</span> Plan
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto fade-in-section">
                 Flexible pricing options to fit your trading style and volume, with no hidden fees or commissions.
@@ -312,7 +311,7 @@ const Index = () => {
                 Ready to <span className="text-gradient-purple">Dominate</span> the Solana Memecoin Market?
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-10 max-w-2xl mx-auto">
-                Join hundreds of traders who are already using SolSniper to capture early opportunities and maximize their returns.
+                Join hundreds of traders who are already using Traderr to capture early opportunities and maximize their returns.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Button 
@@ -320,7 +319,7 @@ const Index = () => {
                   size="lg" 
                   icon={<ArrowUpRight className="h-5 w-5" />}
                 >
-                  Launch SolSniper
+                  Launch Traderr
                 </Button>
                 <Button 
                   variant="outline" 
@@ -338,8 +337,8 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center border-b border-gray-200 dark:border-gray-800 pb-8 mb-8">
             <div className="flex items-center space-x-1 mb-6 md:mb-0">
-              <div className="h-9 w-9 rounded-lg bg-gradient-to-br from-solana-purple to-solana-green flex items-center justify-center text-white font-bold text-lg">S</div>
-              <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-solana-purple to-solana-green ml-1">SolSniper</span>
+              <div className="h-9 w-9 rounded-lg bg-gradient-to-br from-solana-purple to-solana-green flex items-center justify-center text-white font-bold text-lg">T</div>
+              <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-solana-purple to-solana-green ml-1">Traderr</span>
             </div>
             <div className="flex flex-wrap justify-center md:justify-end gap-6">
               <a href="#features" className="text-gray-600 dark:text-gray-400 hover:text-solana-purple dark:hover:text-solana-green transition-colors">
@@ -361,7 +360,7 @@ const Index = () => {
           </div>
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-gray-500 dark:text-gray-400 mb-4 md:mb-0">
-              © {new Date().getFullYear()} SolSniper. All rights reserved.
+              © {new Date().getFullYear()} Traderr. All rights reserved.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-500 dark:text-gray-400 hover:text-solana-purple dark:hover:text-solana-green transition-colors">
