@@ -12,7 +12,7 @@ const FeaturesSection: React.FC = () => {
           <div className="inline-flex items-center px-4 py-2 rounded-full bg-solana-purple/10 dark:bg-solana-purple/20 text-solana-purple font-medium text-sm mb-4 fade-in-section">
             <Zap className="mr-2 h-4 w-4" /> Advanced Features
           </div>
-          <h2 className="text-3xl md:text-5xl font-bold mb-6 fade-in-section">
+          <h2 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-white fade-in-section">
             Everything You Need to <span className="text-gradient-purple">Outperform</span> the Market
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto fade-in-section">
