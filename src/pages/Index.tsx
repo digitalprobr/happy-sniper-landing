@@ -10,6 +10,13 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   useEffect(() => {
+    // Initial visibility for already rendered elements
+    document.querySelectorAll(".fade-in-section").forEach((el) => {
+      setTimeout(() => {
+        el.classList.add("is-visible");
+      }, 100);
+    });
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -18,7 +25,7 @@ const Index = () => {
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
     );
 
     document.querySelectorAll(".fade-in-section").forEach((el) => {
