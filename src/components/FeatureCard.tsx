@@ -58,8 +58,8 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
         <div className="p-3 rounded-xl bg-solana-purple/10 dark:bg-solana-purple/20 w-fit">
           <Icon className="h-6 w-6 text-solana-purple" />
         </div>
-        <h3 className="text-xl font-semibold text-gray-900 dark:text-yellow-300">{title}</h3>
-        <p className="text-gray-600 dark:text-yellow-200">{description}</p>
+        <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-900">{title}</h3>
+        <p className="text-gray-600 dark:text-gray-600">{description}</p>
       </div>
     </div>
   );
