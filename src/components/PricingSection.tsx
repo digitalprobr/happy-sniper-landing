@@ -24,7 +24,7 @@ const PricingSection: React.FC = () => {
           <div className="bg-white dark:bg-gray-800/50 rounded-2xl p-8 border border-gray-200 dark:border-gray-700 shadow-soft hover:shadow-md transition-all duration-300 fade-in-section">
             <h3 className="text-xl font-bold mb-2">Starter</h3>
             <div className="mb-6">
-              <span className="text-4xl font-bold">$49</span>
+              <span className="text-4xl font-bold">Sol 0.5</span>
               <span className="text-gray-500 dark:text-gray-400">/day</span>
             </div>
             <ul className="space-y-4 mb-8">
@@ -42,7 +42,11 @@ const PricingSection: React.FC = () => {
               </li>
               <li className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-solana-green mr-2 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-600 dark:text-gray-300">Email support</span>
+                <span className="text-gray-600 dark:text-gray-300">Ticket support</span>
+              </li>
+              <li className="flex items-start">
+                <CheckCircle className="h-5 w-5 text-solana-green mr-2 flex-shrink-0 mt-0.5" />
+                <span className="text-gray-600 dark:text-gray-300">Tax fee: 10%</span>
               </li>
             </ul>
             <Button variant="outline" fullWidth>
@@ -56,7 +60,7 @@ const PricingSection: React.FC = () => {
             </div>
             <h3 className="text-xl font-bold mb-2">Pro</h3>
             <div className="mb-6">
-              <span className="text-4xl font-bold">$149</span>
+              <span className="text-4xl font-bold">Sol 1.5</span>
               <span className="text-gray-500 dark:text-gray-400">/week</span>
             </div>
             <ul className="space-y-4 mb-8">
@@ -74,11 +78,15 @@ const PricingSection: React.FC = () => {
               </li>
               <li className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-solana-green mr-2 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-600 dark:text-gray-300">Priority email & Discord support</span>
+                <span className="text-gray-600 dark:text-gray-300">Priority ticket & Discord support</span>
               </li>
               <li className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-solana-green mr-2 flex-shrink-0 mt-0.5" />
                 <span className="text-gray-600 dark:text-gray-300">MEV protection features</span>
+              </li>
+              <li className="flex items-start">
+                <CheckCircle className="h-5 w-5 text-solana-green mr-2 flex-shrink-0 mt-0.5" />
+                <span className="text-gray-600 dark:text-gray-300">Tax fee: 7%</span>
               </li>
             </ul>
             <Button variant="gradient" fullWidth>
@@ -89,7 +97,7 @@ const PricingSection: React.FC = () => {
           <div className="bg-white dark:bg-gray-800/50 rounded-2xl p-8 border border-gray-200 dark:border-gray-700 shadow-soft hover:shadow-md transition-all duration-300 fade-in-section">
             <h3 className="text-xl font-bold mb-2">Ultimate</h3>
             <div className="mb-6">
-              <span className="text-4xl font-bold">$299</span>
+              <span className="text-4xl font-bold">Sol 3.0</span>
               <span className="text-gray-500 dark:text-gray-400">/month</span>
             </div>
             <ul className="space-y-4 mb-8">
@@ -112,6 +120,10 @@ const PricingSection: React.FC = () => {
               <li className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-solana-green mr-2 flex-shrink-0 mt-0.5" />
                 <span className="text-gray-600 dark:text-gray-300">Custom strategy development</span>
+              </li>
+              <li className="flex items-start">
+                <CheckCircle className="h-5 w-5 text-solana-green mr-2 flex-shrink-0 mt-0.5" />
+                <span className="text-gray-600 dark:text-gray-300">Tax fee: 5%</span>
               </li>
             </ul>
             <Button variant="accent" fullWidth>
