@@ -25,7 +25,7 @@ const PricingSection: React.FC = () => {
             <h3 className="text-xl font-bold mb-2">Starter</h3>
             <div className="mb-6">
               <span className="text-4xl font-bold">$49</span>
-              <span className="text-gray-500 dark:text-gray-400">/month</span>
+              <span className="text-gray-500 dark:text-gray-400">/day</span>
             </div>
             <ul className="space-y-4 mb-8">
               <li className="flex items-start">
@@ -57,7 +57,7 @@ const PricingSection: React.FC = () => {
             <h3 className="text-xl font-bold mb-2">Pro</h3>
             <div className="mb-6">
               <span className="text-4xl font-bold">$149</span>
-              <span className="text-gray-500 dark:text-gray-400">/month</span>
+              <span className="text-gray-500 dark:text-gray-400">/week</span>
             </div>
             <ul className="space-y-4 mb-8">
               <li className="flex items-start">
