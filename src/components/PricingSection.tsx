@@ -88,7 +88,7 @@ const PricingSection: React.FC = () => {
               </li>
               <li className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-solana-green mr-2 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-600 dark:text-gray-300">Sell fee: 5%</span>
+                <span className="text-gray-600 dark:text-gray-300">Transaction fee: 5%</span>
               </li>
             </ul>
             <Button variant="gradient" fullWidth>
@@ -126,7 +126,7 @@ const PricingSection: React.FC = () => {
               </li>
               <li className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-solana-green mr-2 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-600 dark:text-gray-300">Sell fee: 3%</span>
+                <span className="text-gray-600 dark:text-gray-300">Transaction fee: 3%</span>
               </li>
             </ul>
             <Button variant="accent" fullWidth>
