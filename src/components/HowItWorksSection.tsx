@@ -14,7 +14,7 @@ const HowItWorksSection: React.FC = () => {
             <Play className="mr-2 h-4 w-4" /> Simple Process
           </div>
           <h2 className="text-3xl md:text-5xl font-bold mb-6 fade-in-section">
-            How <span className="text-gradient-green">Traderr</span> Works
+            How <span className="text-gradient-purple">Traderr</span> Works
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto fade-in-section">
             Getting started with Traderr is easy. Follow these simple steps to start sniping the best memecoin opportunities on Solana.
