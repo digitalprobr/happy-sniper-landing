@@ -1,3 +1,4 @@
+
 import React from "react";
 import Button from "./Button";
 import AnimatedGradient from "./AnimatedGradient";
@@ -9,7 +10,7 @@ const HowItWorksSection: React.FC = () => {
       <AnimatedGradient className="absolute inset-0 pointer-events-none" />
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
-          <div className="inline-flex items-center px-4 py-2 rounded-full bg-solana-green/10 dark:bg-solana-green/20 text-solana-green font-medium text-sm mb-4 fade-in-section">
+          <div className="inline-flex items-center px-4 py-2 rounded-full bg-solana-purple/10 dark:bg-solana-green/20 text-solana-purple dark:text-solana-green font-medium text-sm mb-4 fade-in-section">
             <Play className="mr-2 h-4 w-4" /> Simple Process
           </div>
           <h2 className="text-3xl md:text-5xl font-bold mb-6 fade-in-section">
