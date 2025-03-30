@@ -76,7 +76,7 @@ const PricingSection: React.FC = () => {
               </li>
               <li className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-solana-green mr-2 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-600 dark:text-gray-300">Up to 50 concurrent monitors</span>
+                <span className="text-gray-600 dark:text-gray-300">Up to 30 concurrent monitors</span>
               </li>
               <li className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-solana-green mr-2 flex-shrink-0 mt-0.5" />
@@ -114,7 +114,7 @@ const PricingSection: React.FC = () => {
               </li>
               <li className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-solana-green mr-2 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-600 dark:text-gray-300">Unlimited concurrent monitors</span>
+                <span className="text-gray-600 dark:text-gray-300">Up to 50 concurrent monitors</span>
               </li>
               <li className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-solana-green mr-2 flex-shrink-0 mt-0.5" />
