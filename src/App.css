@@ -1,4 +1,4 @@
-.oldprice {text-decoration: line-through;}
+span .oldprice {text-decoration: line-through;}
 
 #root {
   max-width: 1280px;
