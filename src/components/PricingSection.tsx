@@ -24,7 +24,7 @@ const PricingSection: React.FC = () => {
           <div className="bg-white dark:bg-gray-800/50 rounded-2xl p-8 border border-gray-200 dark:border-gray-700 shadow-soft hover:shadow-md transition-all duration-300 fade-in-section">
             <h3 className="text-xl font-bold mb-2">Starter</h3>
             <div className="mb-6">
-              <span className="oldprice"><s>2.0 SOL</s></span><br />
+              <span className="oldprice"><s>2 SOL</s></span><br />
               <span className="text-4xl font-bold">1 SOL</span>
               <span className="text-gray-500 dark:text-gray-400">/day</span>
             </div>
@@ -61,8 +61,8 @@ const PricingSection: React.FC = () => {
             </div>
             <h3 className="text-xl font-bold mb-2">Pro</h3>
             <div className="mb-6">
-              <span className="oldprice"><s>6.0 SOL</s></span><br />
-              <span className="text-4xl font-bold">3.0 SOL</span>
+              <span className="oldprice"><s>6 SOL</s></span><br />
+              <span className="text-4xl font-bold">3 SOL</span>
               <span className="text-gray-500 dark:text-gray-400">/week</span>
             </div>
             <ul className="space-y-4 mb-8">
@@ -99,8 +99,8 @@ const PricingSection: React.FC = () => {
           <div className="bg-white dark:bg-gray-800/50 rounded-2xl p-8 border border-gray-200 dark:border-gray-700 shadow-soft hover:shadow-md transition-all duration-300 fade-in-section">
             <h3 className="text-xl font-bold mb-2">Ultimate</h3>
             <div className="mb-6">
-              <span className="oldprice"><s>14.0 SOL</s></span><br />
-              <span className="text-4xl font-bold">7.0 SOL</span>
+              <span className="oldprice"><s>18 SOL</s></span><br />
+              <span className="text-4xl font-bold">9 SOL</span>
               <span className="text-gray-500 dark:text-gray-400">/month</span>
             </div>
             <ul className="space-y-4 mb-8">
