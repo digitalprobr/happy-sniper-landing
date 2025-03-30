@@ -9,11 +9,11 @@ const PricingSection: React.FC = () => {
       <div className="absolute top-0 left-0 w-full h-full bg-hero-pattern opacity-5"></div>
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
-          <div className="inline-flex items-center px-4 py-2 rounded-full bg-solana-purple/10 dark:bg-solana-purple/20 text-solana-purple font-medium text-sm mb-4 fade-in-section">
+          <div className="inline-flex items-center px-4 py-2 rounded-full bg-solana-green/10 dark:bg-solana-purple/20 text-solana-green dark:text-solana-purple font-medium text-sm mb-4 fade-in-section">
             <Download className="mr-2 h-4 w-4" /> Simple Pricing
           </div>
           <h2 className="text-3xl md:text-5xl font-bold mb-6 fade-in-section">
-            Choose Your <span className="text-gradient-purple">Traderr</span> Plan
+            Choose Your <span className="text-gradient-green dark:text-gradient-purple">Traderr</span> Plan
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto fade-in-section">
             Flexible pricing options to fit your trading style and volume, with no hidden fees or commissions.
