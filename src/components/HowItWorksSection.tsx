@@ -22,13 +22,13 @@ const HowItWorksSection: React.FC = () => {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
-          <div className="bg-white dark:bg-gray-800/50 rounded-2xl p-8 shadow-soft relative fade-in-section">
-            <div className="absolute -top-5 -left-5 h-12 w-12 rounded-full bg-solana-purple flex items-center justify-center text-white font-bold text-xl">1</div>
+          <div className="bg-white dark:bg-gray-800/50 rounded-2xl p-8 shadow-soft relative fade-in-section flex flex-col items-center text-center">
+            <div className="absolute -top-5 left-1/2 -translate-x-1/2 h-12 w-12 rounded-full bg-solana-purple flex items-center justify-center text-white font-bold text-xl">1</div>
             <h3 className="text-xl font-bold mb-4 pt-2">Connect Your Wallet</h3>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
               Securely connect your Solana wallet to provide Traderr with the permissions needed to execute trades on your behalf.
             </p>
-            <ul className="space-y-2">
+            <ul className="space-y-2 w-full">
               <li className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-solana-green mr-2 flex-shrink-0 mt-0.5" />
                 <span className="text-sm text-gray-600 dark:text-gray-300">Supports Phantom, Solflare & more</span>
@@ -40,13 +40,13 @@ const HowItWorksSection: React.FC = () => {
             </ul>
           </div>
           
-          <div className="bg-white dark:bg-gray-800/50 rounded-2xl p-8 shadow-soft relative fade-in-section">
-            <div className="absolute -top-5 -left-5 h-12 w-12 rounded-full bg-solana-purple flex items-center justify-center text-white font-bold text-xl">2</div>
+          <div className="bg-white dark:bg-gray-800/50 rounded-2xl p-8 shadow-soft relative fade-in-section flex flex-col items-center text-center">
+            <div className="absolute -top-5 left-1/2 -translate-x-1/2 h-12 w-12 rounded-full bg-solana-purple flex items-center justify-center text-white font-bold text-xl">2</div>
             <h3 className="text-xl font-bold mb-4 pt-2">Configure Your Strategy</h3>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
               Set your trading parameters including token filters, maximum slippage, gas settings, and automatic profit-taking.
             </p>
-            <ul className="space-y-2">
+            <ul className="space-y-2 w-full">
               <li className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-solana-green mr-2 flex-shrink-0 mt-0.5" />
                 <span className="text-sm text-gray-600 dark:text-gray-300">Customizable parameters</span>
@@ -58,13 +58,13 @@ const HowItWorksSection: React.FC = () => {
             </ul>
           </div>
           
-          <div className="bg-white dark:bg-gray-800/50 rounded-2xl p-8 shadow-soft relative fade-in-section">
-            <div className="absolute -top-5 -left-5 h-12 w-12 rounded-full bg-solana-purple flex items-center justify-center text-white font-bold text-xl">3</div>
+          <div className="bg-white dark:bg-gray-800/50 rounded-2xl p-8 shadow-soft relative fade-in-section flex flex-col items-center text-center">
+            <div className="absolute -top-5 left-1/2 -translate-x-1/2 h-12 w-12 rounded-full bg-solana-purple flex items-center justify-center text-white font-bold text-xl">3</div>
             <h3 className="text-xl font-bold mb-4 pt-2">Launch & Monitor</h3>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
               Activate Traderr and watch as it monitors the Solana blockchain for opportunities and executes trades according to your strategy.
             </p>
-            <ul className="space-y-2">
+            <ul className="space-y-2 w-full">
               <li className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-solana-green mr-2 flex-shrink-0 mt-0.5" />
                 <span className="text-sm text-gray-600 dark:text-gray-300">Real-time performance dashboard</span>
