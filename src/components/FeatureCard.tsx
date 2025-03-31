@@ -47,14 +47,14 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
     <div 
       ref={cardRef}
       className={cn(
-        "relative p-6 rounded-2xl bg-white dark:bg-secondary/20 shadow-soft dark:shadow-none backdrop-blur-sm border border-slate-100 dark:border-white/10 transition-all duration-300 hover:shadow-md hover:-translate-y-1 fade-in-section",
+        "relative p-6 rounded-2xl bg-white dark:bg-secondary/20 shadow-soft dark:shadow-none backdrop-blur-sm border border-slate-100 dark:border-white/10 transition-all duration-300 hover:shadow-md hover:-translate-y-1 fade-in-section text-center",
         className
       )}
       style={{ 
         animationDelay: `${index * 100}ms`,
       }}
     >
-      <div className="flex flex-col space-y-4">
+      <div className="flex flex-col items-center space-y-4">
         <div className="p-3 rounded-xl bg-solana-purple/10 dark:bg-solana-purple/20 w-fit">
           <Icon className="h-6 w-6 text-solana-purple" />
         </div>
