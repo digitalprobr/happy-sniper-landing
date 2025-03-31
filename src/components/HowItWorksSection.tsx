@@ -28,7 +28,7 @@ const HowItWorksSection: React.FC = () => {
             <p className="text-gray-600 dark:text-gray-300 mb-4">
               Securely connect your Solana wallet to provide Traderr with the permissions needed to execute trades on your behalf.
             </p>
-            <ul className="space-y-2 w-full">
+            <ul className="space-y-2 w-full text-left">
               <li className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-solana-green mr-2 flex-shrink-0 mt-0.5" />
                 <span className="text-sm text-gray-600 dark:text-gray-300">Supports Phantom, Solflare & more</span>
@@ -46,7 +46,7 @@ const HowItWorksSection: React.FC = () => {
             <p className="text-gray-600 dark:text-gray-300 mb-4">
               Set your trading parameters including token filters, maximum slippage, gas settings, and automatic profit-taking.
             </p>
-            <ul className="space-y-2 w-full">
+            <ul className="space-y-2 w-full text-left">
               <li className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-solana-green mr-2 flex-shrink-0 mt-0.5" />
                 <span className="text-sm text-gray-600 dark:text-gray-300">Customizable parameters</span>
@@ -64,7 +64,7 @@ const HowItWorksSection: React.FC = () => {
             <p className="text-gray-600 dark:text-gray-300 mb-4">
               Activate Traderr and watch as it monitors the Solana blockchain for opportunities and executes trades according to your strategy.
             </p>
-            <ul className="space-y-2 w-full">
+            <ul className="space-y-2 w-full text-left">
               <li className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-solana-green mr-2 flex-shrink-0 mt-0.5" />
                 <span className="text-sm text-gray-600 dark:text-gray-300">Real-time performance dashboard</span>
