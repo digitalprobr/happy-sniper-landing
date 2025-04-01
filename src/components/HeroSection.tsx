@@ -27,6 +27,7 @@ const HeroSection: React.FC = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-slide-up" style={{ animationDelay: "200ms" }}>
+          <a href="//app.traderr.fun/">
           <Button 
             variant="gradient" 
             size="lg" 
@@ -34,6 +35,7 @@ const HeroSection: React.FC = () => {
           >
             Launch App
           </Button>
+          </a>
           <Button 
             variant="outline" 
             size="lg" 
